@@ -1,15 +1,17 @@
 import img from "./img/logoimg.png";
 import React from 'react';
 import './css/Main.css';
+import {Link,Route } from "react-router-dom";
+import Click from './Click';
+import Header from './Header';
 
 
 function Main(){ 
-    const clickMe=()=>{
-            document.location.href('/')
-        }
+
     return(
        
         <div className="Main">
+            <Header/>
             <img className="backgroundimg" src={img} alt="logo"/>
             <div className="font">
                 <div className='hack'>
@@ -26,12 +28,13 @@ function Main(){
                 </div>
                 <div className="date">
                     <p>2023.00.00~2023.00.00</p>
-                    </div>
+                </div>
+                <div className="form">
+                     <Click />
+                </div>
+                
             </div>
-            <div className='button'> 
-                <button className='form' onClick={clickMe}>11기 지원하기</button>
-            </div>
-           
+               
      </div>
 
     );

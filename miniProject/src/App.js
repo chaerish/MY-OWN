@@ -1,19 +1,24 @@
 import react, {Component} from 'react';
 import './App.css';
-// import {Routes,Route,Link} from react-dom;
-import Header from './component/Header';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Form from './component/Form';
 import Main from './component/Main';
+import Header from './component/Header';
 
 function App() {
   return (
-    <div className='App'>
-      {/* <nav>
-        <Link to='/'>Home</Link>
-      </nav>
-      <Route path='/' element={</>}></Route> */}
-      <Header />
-      <Main />
-    </div>
+    // <div className='App'>
+    //   <Header/>
+    //   <Main/>
+    // </div>
+    <BrowserRouter>
+      <Routes>
+        <Route>
+          <Route path="" element={<Main />} />
+          <Route path="/form" element={<Form />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

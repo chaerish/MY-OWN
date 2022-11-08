@@ -11,7 +11,8 @@ body{
     height:832px;
   }
   
-  .background{
+  .backgroundimg{
+    padding-top:2%;
     position: absolute;
     width:985px;
     height:803px;
@@ -110,23 +111,29 @@ body{
   }
   
   .form{
-    font-size:20px;
+    position: absolute;
+    right:-20%;
+  }
+  .clickb{
+    
     background-color: #FF7710;
-    right:30%;
-    color:white;
     border:0;
     outline: 0;
-    height:45px;
+    width: 151px;
+    height:40px;
+    border-radius:10px;
 
-    border-radius: 10px;
-    font-family: Inter;
-     
   }
-  .button{
-    position: absolute;
-    left:55%;
-    bottom:9%;
+  a{
+    text-decoration: none;
+    color:#FFFFFF;
+    font-size:25px;
+    line-height: 24px;
+    padding-left:20%;
+    font-weight: 600;
   }
+  
+  
   .date{
     position: absolute;
     color: #E67800;
@@ -137,7 +144,7 @@ body{
     letter-spacing: 0em;
     text-align: left;
     left:90%;
-    bottom:4%;  
+    bottom:4%; 
+     
 
   } 
-  
