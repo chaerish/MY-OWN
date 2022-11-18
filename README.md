@@ -1,2 +1,2 @@
 # MY-OWN
-Config files for my GitHub profile.
+내가 작업했던 것들 모아두는 코드! 
