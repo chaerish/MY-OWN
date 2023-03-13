@@ -1,2 +1,2 @@
-# MY-OWN-Front
+# MY-OWN-FRONT
 내가 작업했던 것들 모아두는 코드! (프론트엔드)
